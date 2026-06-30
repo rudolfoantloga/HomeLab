@@ -1,0 +1,28 @@
+---
+title: HomeLab Rudolfo
+
+language: pt-BR
+
+headerStyle: boxed
+
+layout:
+  Infraestrutura:
+    style: row
+    columns: 3
+
+  Inteligência Artificial:
+    style: row
+    columns: 3
+
+  HomeLab:
+    style: row
+    columns: 3
+
+providers:
+  openweathermap:
+  weatherapi:
+
+allowedHosts:
+  - localhost:3000
+  - 127.0.0.1:3000
+  - 100.122.61.34:3000

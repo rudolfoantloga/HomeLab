@@ -1,0 +1,44 @@
+# Git
+.git
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Logs
+logs/
+*.log
+
+# Docker
+**/logs/
+
+# Backups
+backups/
+*.bak
+*.old
+
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Mídia (não versionar)
+media/
+
+# Volumes Docker
+volumes/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# VS Code
+.vscode/settings.json
