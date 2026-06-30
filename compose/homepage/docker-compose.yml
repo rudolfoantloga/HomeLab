@@ -12,8 +12,6 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
 
     environment:
-      PUID: 1000
-      PGID: 1000
       HOMEPAGE_ALLOWED_HOSTS: localhost:3000,127.0.0.1:3000,100.122.61.34:3000
 
     networks:

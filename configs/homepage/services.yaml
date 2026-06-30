@@ -1,15 +1,32 @@
 ---
 - Infraestrutura:
+    - Homepage:
+        href: http://100.122.61.34:3000
+        description: Página inicial do HomeLab
+        icon: homepage.png
+
     - Portainer:
-        href: https://localhost:9443
+        href: https://100.122.61.34:9443
         description: Gerenciamento de containers Docker
         icon: portainer.png
         server: my-docker
         container: portainer
 
+    - Uptime Kuma:
+        href: http://100.122.61.34:3001
+        description: Monitoramento dos serviços
+        icon: uptime-kuma.png
+        server: my-docker
+        container: uptime-kuma
+
+    - Docker:
+        href: https://100.122.61.34:9443
+        description: Administração dos containers
+        icon: docker.png
+
     - RustDesk:
         href: http://100.122.61.34:21114
-        description: Acesso remoto ao PC
+        description: Acesso remoto
         icon: rustdesk.png
 
     - Tailscale:
@@ -18,13 +35,39 @@
         icon: tailscale.png
 
 - Inteligência Artificial:
-    - Ollama API:
-        href: http://100.122.61.34:443
-        description: Servidor local de IA
+    - Ollama:
+        href: http://100.122.61.34:11434
+        description: API local de IA
         icon: ollama.png
 
-- HomeLab:
-    - Docker Desktop:
-        href: https://localhost:9443
-        description: Administração dos containers
-        icon: docker.png
+    - Open WebUI:
+        href: http://100.122.61.34:3002
+        description: Interface web da IA
+        icon: open-webui.png
+
+- Aplicações:
+    - Jellyfin:
+        href: http://100.122.61.34:8096
+        description: Servidor de mídia
+        icon: jellyfin.png
+
+    - Immich:
+        href: http://100.122.61.34:2283
+        description: Biblioteca de fotos
+        icon: immich.png
+
+    - n8n:
+        href: http://100.122.61.34:5678
+        description: Automações
+        icon: n8n.png
+
+- Projetos:
+    - Detran Smart:
+        href: "#"
+        description: Sistema inteligente DETRAN
+        icon: mdi-car
+
+    - SmartDocs:
+        href: "#"
+        description: Automação documental
+        icon: mdi-file-document
